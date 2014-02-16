@@ -1,0 +1,39 @@
+/* Useful Media Queries */
+
+
+/* Targetting specific device sizes and resolutions */
+
+
+/* iPad ------------------------ */
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { }
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { }
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { }
+
+/* iPad with retina, add "and (-webkit-min-device-pixel-ratio: 2)" */
+
+
+/* iPhone ---------------------- */
+
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { }
+
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { }
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { }
+
+/* iPhone <5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { }
+
+/* iPhone <5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) { }
+
+/* iPhone <5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) { }
